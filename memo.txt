@@ -1,0 +1,12 @@
+発注時パラメータ（変更点のみ）
+
+PCB Color	Black
+PCB Assembly	Enable
+PCBA Qty	2
+
+実装しない部品があるが良いか？→OK
+
+Quote & Order ページ
+Product Description	：　Others/Others, Hakuri/Yojiri Control Shield
+
+45.95 USD

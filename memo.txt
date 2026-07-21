@@ -10,3 +10,62 @@ Quote & Order ページ
 Product Description	：　Others/Others, Hakuri/Yojiri Control Shield
 
 45.95 USD
+
+
+//
+// ショートカットキー定義ファイル
+// (ユーザホームフォルダ , %ICADDIR%\USER\ETCの順で検索されます)
+//
+F1                              ";BSLINE;PTP"     // 基本線(2点間)
+F2                              ";CIR1;CRT;RAD"     // 中心点円作成
+F3                              ";APLLIN;CLN"     // 応用作図中心線
+F4                              ";RETUCH;CLOSE"     // 切断結合・結合
+F5                              ";DIMLIN;STA"     // 長さ寸法
+F6                              ";DIMARC;DIA;LIN;FAIMK"     // 直径寸法φ引出
+F7                              ";DIMANG;STA"     // 角度寸法
+F8                              ";DIMARW;VDSP"     // 面取り寸法
+F9                              ";DRFEDT;PLA"     // 製図編集(位置)
+F10                              ";NSMARK;DETA"     // 表面粗さ(詳細)
+F11                             ";NOTE;PCHR;LB"     // 文書入力左下隅点配置
+"1" CONTROL                     ";TD4MOD;PTACC;TAGET"     // アクセス権全取得
+"2" CONTROL                     ";PTSLST;PINFOS;INFOSET;SUBSEL"     // パーツ付加情報設定
+"A" CONTROL                     ";VWCHGA"     // 次ﾋﾞｭｰ
+"E" CONTROL                     ";CNVDRW;EXPORT,NOPD"     // 図面エクスポート
+"G" CONTROL                     ";ERASE;OPT;@IOFF;FEATURE;@IOFF;HSCH;TYP"     // ゴマ塩削除
+"I" CONTROL                     ";CNVDRW;IMPORT,NOPD"     // 図面インポート
+"M" CONTROL                     "@MEASET"     // メジャー
+"N" CONTROL                     ";NEW;CLR"     // 新規作成
+"O" CONTROL                     ";OPEN;LOD"     // 開く
+"P" CONTROL                     ";PLOT3;OUT;AREA"     // 範囲出力
+"R" CONTROL                     "@REFP"     // 参照点
+"S" CONTROL                     ";SAVEO"     // 上書き保存
+"T" CONTROL                     "@CHAIN"     // 連結
+"W" CONTROL                     ";XSCLOS "     // ウィンドウ閉じる
+"X" CONTROL                     "@INT2"     // 近交点
+"Y" CONTROL                     ";REDO"     // REDO
+"Z" CONTROL                     ";UNDO"     // UNDO
+"/" CONTROL                     ";ALL-ELM"     // 全表示
+":" CONTROL                     ";CHGCLR;CLEAR"     // 半透明表示
+";" CONTROL                     ";CHGCLR;NORMAL"     // 半透明解除
+"@" CONTROL                     "DIMSW1 GO"     // 次元切換
+"[" CONTROL                     ";OPT "     // 任意要素非表示
+"]" CONTROL                     ";ALL-ELM "     // 指定以外非表示
+"^" CONTROL                     COLORMASK     // 検索カラー(&C)
+"S" CONTROL     SHIFT           ";SAVEAS;SAVE"     // 名前をつけて保存
+"1"                     ALT     "@SYSGRP"     // 検索モード切替
+"2"                     ALT     "@CHGADM 10"     // 円弧詳細表示
+"3"                     ALT     "@CHGADM OFF"     // 円弧詳細表示解除
+"A"                     ALT     "ZOOMFUL"     // 全画面
+"B"                     ALT     "SVIWB 0"     // 下面図
+"C"                     ALT     "@ORGN"     // 中心
+"E"                     ALT     "WFONCG ON CGET2 0"     // CG表示縁あり
+"F"                     ALT     "SVIWF 0"     // 正面図
+"K"                     ALT     "SVIWRE 0"     // 背面図
+"L"                     ALT     "SVIWL 0"     // 左側面図
+"Q"                     ALT     "@TRENT"     // 半透明表示
+"R"                     ALT     "SVIWRI 0"     // 右側面図
+"S"                     ALT     "SFVIW"     // 面指定
+"T"                     ALT     "SVIWT 0"     // 平面図
+"W"                     ALT     "WFET2 0"     // Wire表示
+"X"                     ALT     "@INT"     // 交点選択
+"Z"                     ALT     "@SFVIW"     // 面選択視点

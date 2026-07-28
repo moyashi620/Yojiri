@@ -9,6 +9,18 @@ PCBA Qty	2
 Quote & Order ページ
 Product Description	：　Others/Others, Hakuri/Yojiri Control Shield
 
+＜システム＞
+線幅　色分け表示ON
+細線　黄色　　中線　水色　　太線　黄緑色
+
+座標入力字の要素ｴｺｰ色ON 　緑
+
+＜作図＞
+可変処理のｴｺｰ表示色　伸縮移動要素の色　緑　　延長要素の色　水色
+
+＜子図＞
+外径線　水色
+
 45.95 USD
 
 D:\ICADSX\HOME\以下保存
